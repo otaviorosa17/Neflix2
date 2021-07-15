@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+:root {
+  --logo-font: 'Bebas Neue';
+  --logo-color: rgba(228, 8, 20, 255);
+  --background-color: rgba(20, 20, 20, 255);
+}
+
+.grid {
+  display: grid;
+}
+
+body {
+  background-color: var(--background-color);
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+header .grid {
+  padding-top: 1rem;
+  background-color: var(--background-color);
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.logo {
+  font: 300 1rem var(--logo-font), sans-serif;
+  color: rgba(228, 8, 20, 255);
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+}
+
+#circle {
+  background-color: var(--background-color);
+  border-radius: 100% 100% 0 0;
+  width: 9rem;
+  height: 0.75rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 2.75rem;
+}
+
+.img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 10%;
+}
