@@ -21,6 +21,7 @@ img {
   --logo-font: 'Bebas Neue';
   --logo-color: rgba(228, 8, 20, 255);
   --background-color: rgba(20, 20, 20, 255);
+  --text-font: 'Source Sans Pro';
 }
 
 .grid {
@@ -29,8 +30,8 @@ img {
 
 body {
   background-color: var(--background-color);
-  padding-left: 4rem;
-  padding-right: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 header .grid {
@@ -38,6 +39,11 @@ header .grid {
   background-color: var(--background-color);
   grid-auto-flow: column;
   justify-content: space-between;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
 }
 
 .logo {
@@ -51,7 +57,7 @@ header .grid {
   background-color: var(--background-color);
   border-radius: 100% 100% 0 0;
   width: 9rem;
-  height: 0.75rem;
+  height: 0.8rem;
   position: absolute;
   left: 2.5rem;
   top: 2.75rem;
@@ -61,4 +67,14 @@ header .grid {
   height: 2rem;
   width: 2rem;
   border-radius: 10%;
+}
+
+section {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+section h1 {
+  font: 600 1.75rem var(--text-font);
+  color: white;
 }
