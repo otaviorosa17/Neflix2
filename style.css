@@ -47,7 +47,7 @@ header {
 header ul {
   display: grid;
   grid-auto-flow: column;
-  gap: 110rem;
+  gap: 109.5rem;
 }
 
 .logo {
@@ -64,7 +64,7 @@ header ul {
   width: 9rem;
   height: 0.5rem;
   position: relative;
-  right: 113.8rem;
+  right: 113.7rem;
   top: 1.75rem;
 }
 
