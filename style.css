@@ -34,16 +34,20 @@ body {
   margin-right: 4rem;
 }
 
-header .grid {
-  padding-top: 1rem;
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
   background-color: var(--background-color);
-  grid-auto-flow: column;
-  justify-content: space-between;
-  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-header {
-  position: fixed;
+header ul {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 110rem;
 }
 
 .logo {
@@ -51,16 +55,17 @@ header {
   color: rgba(228, 8, 20, 255);
   letter-spacing: 0.15rem;
   font-size: 2rem;
+  position: absolute;
 }
 
 #circle {
   background-color: var(--background-color);
   border-radius: 100% 100% 0 0;
   width: 9rem;
-  height: 0.8rem;
-  position: absolute;
-  left: 2.5rem;
-  top: 2.75rem;
+  height: 0.5rem;
+  position: relative;
+  right: 113.8rem;
+  top: 1.75rem;
 }
 
 .img {
