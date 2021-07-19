@@ -22,6 +22,8 @@ img {
   --logo-color: rgba(228, 8, 20, 255);
   --background-color: rgba(20, 20, 20, 255);
   --text-font: 'Source Sans Pro';
+  --swiper-theme-color: #ffffff;
+  --swiper-navigation-size: 2.75rem;
 }
 
 .grid {
@@ -42,12 +44,13 @@ header {
   overflow: hidden;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  z-index: 1000;
 }
 
 header ul {
   display: grid;
   grid-auto-flow: column;
-  gap: 109.5rem;
+  gap: 109rem;
 }
 
 .logo {
@@ -64,11 +67,11 @@ header ul {
   width: 9rem;
   height: 0.5rem;
   position: relative;
-  right: 113.7rem;
+  right: 113rem;
   top: 1.75rem;
 }
 
-.img {
+header .img {
   height: 2rem;
   width: 2rem;
   border-radius: 10%;
@@ -76,10 +79,53 @@ header ul {
 
 section {
   margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 section h1 {
-  font: 600 1.75rem var(--text-font);
+  font: 600 2rem var(--text-font);
   color: white;
+}
+
+.swiper-container {
+  margin-top: 3rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: var(--background-color);
+  width: 2.5rem;
+  height: 15rem;
+  top: 1rem;
+  opacity: 0%;
+  transition: 0.2s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transition: 0.2s;
+  opacity: 70%;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-slide {
+  transition: 0.2s;
+}
+
+.swiper-slide:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-container {
+  padding: 1.25rem 0;
 }

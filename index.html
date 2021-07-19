@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Néflix2</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@300;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -26,34 +30,109 @@
       <span id="circle"></span>
     </header>
     <main>
-      <section>
-        <h1>Sujestões1</h1>
-      </section>
-      <section>
-        <h1>Sujestões2</h1>
-      </section>
-      <section>
-        <h1>Sujestões3</h1>
-      </section>
-      <section>
-        <h1>Sujestões4</h1>
-      </section>
-      <section>
-        <h1>Sujestões5</h1>
-      </section>
-      <section>
-        <h1>Sujestões6</h1>
-      </section>
-      <section>
-        <h1>Sujestões6</h1>
-      </section>
-      <section>
-        <h1>Sujestões6</h1>
-      </section>
-      <section>
-        <h1>Sujestões6</h1>
-      </section>
+      <div>
+        <section class="movies">
+          <h1>Filmes</h1>
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWHZ_6gG8oivPtI6ac4tSj5CFWIMTI19HMw1E11ALbSr7eXOpoKo440YCo6ZDA5tVQxkJbuioIb2cU2tzjNcfbQaBfuJmIczOlAjG6d0TRRo9-etr9XlXvGht8GH.jpg?r=901"
+                  alt="Run"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfTxVRvAC__6STwi9snToqbibNF-mzPp8hwRQdWuRUoxbMmZTiLkdgB93PWk7EqxZZiysLaLUNzDUrLEdJ45ZzoIB18.webp?r=ce8"
+                  alt="Matrix"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcbkHk3qRWEfiAsmCekDVOylnjxEidONtUMTUWLD1TKQ2DC0tGkUoUU2Z1q8cWcIv37x5oUXRBo6iFhkFxnfFd2M8svwzhyFYgk2Ks7QleZrVnOVp5E4in0Pbwjj.jpg?r=3ce"
+                  alt="The Social Dilemma"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZ03sg6nncTNYVA7yG9S7-92HVmCdHRjCHNFdmY1Hk2E8XbRX3spROPj2NoXfeWp_KVepnuioTDmMOyZT75P1raGv20.webp?r=548"
+                  alt="How To Train Your Dragon"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaxW9DLUlkBVBugZAMWbuh4wD9nBNNloX06XtWDZ6h8MHmL2xbFJBDVb25j4zYNCuEqy64uCHXc5qdxa_KGvAUbYom0.webp?r=7a2"
+                  alt="Minions"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbJpC21jeJPsH8cGAQTx-ijtJsdeXfoZD4mMkuqzDGW421Sx5R_YITSCyOcqmP1h8T6EGBqsUr0pHVIUl526afu7PyA.webp?r=98a"
+                  alt="Spider-Man Homecoming"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc-8JUC_SOj9tIISoqhe1GHo6fK1aNY0ipXoT_Cb8OqSbSdafX0gfWo7VZ4IPowvmtzUc85_DM8svZetRkPM2jH07C8XPUeFpBaEsL_TNEw6-UA-robPjhGc9FiC.jpg?r=2da"
+                  alt="Enola Holmes"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSteLm7-YzfzYsfPSiEv85jRRjdouSHKc785viq6GwRCdiZLVhKJM-Y-zWaM0u2tPaeY5Kl5y3Lw91xTtI23cVPTvm0.webp?r=b8f"
+                  alt="Welcome to the Jungle"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQdkNa_iKdvH1SBn4mZKzieufgACyTnL72yDqeNyxp9XeLL1EfmRjJfEWFpNRDBViPCUPGQoFEitBlMsHSNcPhzqQOA.webp?r=c42"
+                  alt="Justice Squad"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZiDAUrkmBD82GlbXz17FRRxQutPFUnJ8mVulaD8eTa5oxhrEjDb2Xa7CzJu_-nfIAS9S6VRT5EthLrWUb6unZv6pmw.webp?r=be0"
+                  alt="Pixels"
+                />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+        <section class="series">
+          <h1>Séries</h1>
+        </section>
+        <section>
+          <h1>Sujestões3</h1>
+        </section>
+        <section>
+          <h1>Sujestões4</h1>
+        </section>
+        <section>
+          <h1>Sujestões5</h1>
+        </section>
+        <section>
+          <h1>Sujestões6</h1>
+        </section>
+        <section>
+          <h1>Sujestões6</h1>
+        </section>
+        <section>
+          <h1>Sujestões6</h1>
+        </section>
+        <section>
+          <h1>Sujestões6</h1>
+        </section>
+      </div>
     </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
