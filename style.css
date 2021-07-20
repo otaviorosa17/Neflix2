@@ -78,8 +78,12 @@ header .img {
 }
 
 section {
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+main .movies {
+  margin-top: 6rem;
 }
 
 section h1 {
@@ -97,7 +101,7 @@ section h1 {
   width: 2.5rem;
   height: 15rem;
   top: 1rem;
-  opacity: 0%;
+  opacity: 30%;
   transition: 0.2s;
 }
 
@@ -119,11 +123,16 @@ section h1 {
   transition: 0.2s;
 }
 
+.swiper-slide img {
+  border-radius: 5%;
+}
+
 .swiper-slide:hover {
   transition: 0.2s;
   transform: scale(1.2);
   z-index: 10;
   cursor: pointer;
+  transition-delay: 0.5s;
 }
 
 .swiper-container {
