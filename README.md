@@ -1,3 +1,5 @@
-A project to rebuild the netflix interface
+English:
+A project that rebuilds the Netflix interface in order to improve my HTML/CSS/JavaScript skills.
 
-Um projeto para a reconstrução da interface gráfica da netflix
+Português:
+Um projeto que reconstroi a interface da Netflix com o intuito de aprimorar as minhas habilidades em HTML/CSS/JavaScript. 
